@@ -1,0 +1,20 @@
+cask_args appdir: '/Applications'
+
+tap 'homebrew/bundle'
+
+###
+# Development
+###
+
+# Editors
+tap 'neovim/neovim'
+brew 'neovim'
+
+###
+# macOS applications
+###
+cask 'atom'
+cask 'flux'
+cask 'google-chrome'
+cask 'iterm2'
+cask 'slack'
