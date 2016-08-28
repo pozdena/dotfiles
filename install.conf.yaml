@@ -8,4 +8,3 @@
 - link:
     ~/.config/nvim:
         path: config/nvim
-        create: true
