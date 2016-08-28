@@ -8,4 +8,4 @@ Dotfiles are installed using [Dotbot](https://github.com/anishathalye/dotbot).
 
 ## macOS setup
 
-`cd ~/.dotfiles/macos && brew bundle`
+`cd ~/.dotfiles/macos && ./install`
