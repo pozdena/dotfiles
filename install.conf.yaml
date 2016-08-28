@@ -1,6 +1,12 @@
-- clean: ['~']
+- defaults:
+    link:
+      create: true
+      relink: true
+
+- clean: ['~', '~/.config']
 
 - link:
+    ~/.dotfiles: ''
     ~/.config/nvim:
         path: config/nvim
         create: true
