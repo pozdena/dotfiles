@@ -8,3 +8,5 @@
 - link:
     ~/.config/nvim:
         path: config/nvim
+    ~/.zshrc:
+        path: zshrc
