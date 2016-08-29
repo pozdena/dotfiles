@@ -9,4 +9,5 @@ Dotfiles are installed using [Dotbot](https://github.com/anishathalye/dotbot).
 ## macOS setup
 
 `chsh -s $(which zsh)`
+
 `cd ~/.dotfiles/macos && ./install`
