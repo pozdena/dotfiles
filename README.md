@@ -8,4 +8,5 @@ Dotfiles are installed using [Dotbot](https://github.com/anishathalye/dotbot).
 
 ## macOS setup
 
-`cd ~/.dotfiles/macos && ./install`
+1. Install Xcode Command Line Tools, Homebrew and NVM
+2. `cd ~/.dotfiles/macos && ./install`
