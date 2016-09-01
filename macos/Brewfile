@@ -1,11 +1,12 @@
 cask_args appdir: '/Applications'
 
+brew 'zsh'
+
 tap 'homebrew/bundle'
 
 tap 'neovim/neovim'
 brew 'neovim'
 
-tap 'caskroom/fonts'
 cask 'font-meslo-lg'
 
 cask 'atom'
