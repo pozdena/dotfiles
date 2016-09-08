@@ -1,12 +1,14 @@
 - defaults:
-    link:
-      create: true
-      relink: true
+  link:
+    create: true
+    relink: true
 
 - clean: ['~', '~/.config']
 
 - link:
-    ~/.config/nvim:
-        path: config/nvim
-    ~/.zshrc:
-        path: zshrc
+  ~/.config/nvim:
+    path: config/nvim
+  ~/.bashrc:
+    path: bashrc
+  ~/.bash_profile:
+    path: bash_profile
