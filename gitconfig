@@ -1,0 +1,13 @@
+[alias]
+  co = checkout
+  hist = log --pretty=format:\"%h %ad | %s%d [%an]\" --graph --date=short
+  
+[push]
+  default = simple
+
+[core]
+	excludesfile = ~/.gitignore_global
+
+# Include local customizations
+[include]
+	path = ~/.gitconfig_local

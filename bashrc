@@ -9,8 +9,6 @@ export NVM_DIR="$HOME/.nvm"
 
 # aliases
 
-shopt -s expand_aliases
-
 alias l='ls -laFh'
 alias ll='ls -lFh'
 
@@ -39,8 +37,10 @@ parse_git_branch() {
  git branch 2> /dev/null | sed -e '/^[^*]/d' -e 's/* \(.*\)/(\1)/'
 }
 
-PS1='${debian_chroot:+($debian_chroot)}\u@\h:\W$(parse_git_branch)\$ '
+PS1='\W$(parse_git_branch)\$ '
 
 if [ -f ~/.bashrc_local_before ]; then
     source ~/.bashrc_local_before
 fi
+
+[ -f ~/.fzf.bash ] && source ~/.fzf.bash

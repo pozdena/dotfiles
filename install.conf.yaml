@@ -6,9 +6,8 @@
 - clean: ['~', '~/.config']
 
 - link:
-    ~/.config/nvim:
-      path: config/nvim
-    ~/.bashrc:
-      path: bashrc
-    ~/.bash_profile:
-      path: bash_profile
+    ~/.config/nvim: config/nvim
+    ~/.bashrc: bashrc
+    ~/.bash_profile: bash_profile
+    ~/.gitconfig: gitconfig
+    ~/.gitignore_global: gitignore_global
