@@ -4,3 +4,4 @@ brew bundle
 
 defaults write com.googlecode.iterm2 LoadPrefsFromCustomFolder -bool true
 defaults write com.googlecode.iterm2 PrefsCustomFolder "~/.dotfiles/macos/iterm2"
+defaults write NSGlobalDomain ApplePressAndHoldEnabled -bool false
