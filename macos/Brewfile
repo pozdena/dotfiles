@@ -9,9 +9,8 @@ brew 'neovim'
 
 cask 'font-meslo-lg'
 
-cask 'atom'
 cask 'flux'
 cask 'google-chrome'
 cask 'iterm2'
 cask 'slack'
-
+cask 'visual-studio-code'
