@@ -250,8 +250,6 @@
 			<true/>
 			<key>Columns</key>
 			<integer>80</integer>
-			<key>Command</key>
-			<string>/usr/local/bin/zsh</string>
 			<key>Cursor Color</key>
 			<dict>
 				<key>Blue Component</key>
@@ -284,7 +282,7 @@
 				<real>0.91611063480377197</real>
 			</dict>
 			<key>Custom Command</key>
-			<string>Yes</string>
+			<string>No</string>
 			<key>Custom Directory</key>
 			<string>No</string>
 			<key>Default Bookmark</key>
