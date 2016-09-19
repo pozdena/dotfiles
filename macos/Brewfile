@@ -3,6 +3,7 @@ cask_args appdir: '/Applications'
 brew 'zsh'
 
 tap 'homebrew/bundle'
+tap 'caskroom/homebrew-fonts'
 
 tap 'neovim/neovim'
 brew 'neovim'
