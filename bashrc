@@ -1,3 +1,5 @@
+# local customizations before
+
 if [ -f ~/.bashrc_local_before ]; then
   source ~/.bashrc_local_before
 fi
@@ -12,6 +14,7 @@ export NVM_DIR="$HOME/.nvm"
 alias l='ls -laFh'
 alias ll='ls -lFh'
 
+alias g='git'
 alias s='git status'
 alias a='git add -A'
 alias c='git commit'
@@ -39,8 +42,18 @@ parse_git_branch() {
 
 PS1='\W$(parse_git_branch)\$ '
 
-if [ -f ~/.bashrc_local_before ]; then
-    source ~/.bashrc_local_before
-fi
+# fzf
 
 [ -f ~/.fzf.bash ] && source ~/.fzf.bash
+
+# git
+
+source ~/.bash/git-completion.bash
+__git_complete g _git
+
+# local customizations after 
+
+if [ -f ~/.bashrc_local_after ]; then
+    source ~/.bashrc_local_after
+fi
+
