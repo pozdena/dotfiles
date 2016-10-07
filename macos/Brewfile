@@ -1,7 +1,5 @@
 cask_args appdir: '/Applications'
 
-brew 'zsh'
-
 tap 'homebrew/bundle'
 tap 'caskroom/homebrew-fonts'
 
@@ -10,6 +8,7 @@ brew 'neovim'
 
 cask 'font-meslo-lg'
 
+cask 'alfred2'
 cask 'flux'
 cask 'google-chrome'
 cask 'iterm2'
