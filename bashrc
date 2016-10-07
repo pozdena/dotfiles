@@ -17,22 +17,6 @@ alias ll='ls -lFh'
 alias g='git'
 alias s='git status'
 alias a='git add -A'
-alias c='git commit'
-alias r='git reset'
-alias rh='confirm "Are you sure you wish to reset all local changes?" && git reset --hard'
-
-confirm () {
-  # call with a prompt string or use a default
-  read -r -p "${1:-Are you sure? [y/N]} " response
-  case $response in
-    [yY][eE][sS]|[yY]) 
-      true
-      ;;
-    *)
-      false
-      ;;
-  esac
-}
 
 # prompt
 
