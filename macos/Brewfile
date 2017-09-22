@@ -8,7 +8,6 @@ cask 'font-meslo-lg'
 tap 'caskroom/versions'
 cask 'alfred2'
 
-cask 'flux'
 cask 'google-chrome'
 cask 'iterm2'
 cask 'slack'
