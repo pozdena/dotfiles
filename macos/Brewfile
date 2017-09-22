@@ -2,9 +2,6 @@ cask_args appdir: '/Applications'
 
 tap 'homebrew/bundle'
 
-tap 'neovim/neovim'
-brew 'neovim'
-
 tap 'caskroom/homebrew-fonts'
 cask 'font-meslo-lg'
 
