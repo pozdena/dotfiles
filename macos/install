@@ -4,5 +4,7 @@ brew bundle
 
 open "${HOME}/.dotfiles/macos/iterm2/seoul256.itermcolors"
 open "${HOME}/.dotfiles/macos/iterm2/seoul256-light.itermcolors"
+open "${HOME}/.dotfiles/macos/iterm2/BlulocoDark.itermcolors"
+open "${HOME}/.dotfiles/macos/iterm2/BlulocoLight.itermcolors"
 defaults write NSGlobalDomain ApplePressAndHoldEnabled -bool false
 defaults write com.googlecode.iterm2 PromptOnQuit -bool false
