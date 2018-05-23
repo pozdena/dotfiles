@@ -1,16 +1,12 @@
 cask_args appdir: '/Applications'
-
-tap 'homebrew/bundle'
-
-tap 'caskroom/homebrew-fonts'
-cask 'font-meslo-lg'
-
+tap 'caskroom/cask'
 tap 'caskroom/versions'
-cask 'alfred2'
+
+brew 'fzf'
+brew 'tmux'
+brew 'vim'
 
 cask 'google-chrome'
 cask 'iterm2'
 cask 'slack'
 cask 'tower'
-cask 'visual-studio-code'
-cask 'emacs'
