@@ -2,6 +2,7 @@
 
 brew bundle
 
-defaults write com.googlecode.iterm2 LoadPrefsFromCustomFolder -bool true
-defaults write com.googlecode.iterm2 PrefsCustomFolder "~/.dotfiles/macos/iterm2"
+open "${HOME}/.dotfiles/macos/iterm2/seoul256.itermcolors"
+open "${HOME}/.dotfiles/macos/iterm2/seoul256-light.itermcolors"
 defaults write NSGlobalDomain ApplePressAndHoldEnabled -bool false
+defaults write com.googlecode.iterm2 PromptOnQuit -bool false
