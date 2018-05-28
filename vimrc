@@ -1,19 +1,23 @@
 packadd minpac
 call minpac#init()
+call minpac#add('k-takata/minpac', {'type': 'opt'})
 call minpac#add('itchyny/lightline.vim')
 call minpac#add('w0rp/ale')
 call minpac#add('leafgarland/typescript-vim')
 call minpac#add('peitalin/vim-jsx-typescript')
 
+
 "------------------
 " Syntax and indent
 "------------------
+set laststatus=2
+
 syntax on " turn on syntax highlighting
 set showmatch " show matching braces when text indicator is over them
 
+set termguicolors
 let &t_8f="\<Esc>[38;2;%lu;%lu;%lum"
 let &t_8b="\<Esc>[48;2;%lu;%lu;%lum"
-set termguicolors
 
 " Enable italicised comments. Must appear after anything else theme related (like colorscheme).
 highlight Comment cterm=italic
