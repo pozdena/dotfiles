@@ -1,3 +1,4 @@
+" Install plugins with :PlugInstall
 " Avoid using standard Vim directory names like 'plugin'
 call plug#begin('~/.vim/plugged')
 
