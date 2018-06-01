@@ -1,11 +1,17 @@
-packadd minpac
-call minpac#init()
-call minpac#add('k-takata/minpac', {'type': 'opt'})
-call minpac#add('itchyny/lightline.vim')
-call minpac#add('w0rp/ale')
-call minpac#add('leafgarland/typescript-vim')
-call minpac#add('peitalin/vim-jsx-typescript')
+" Avoid using standard Vim directory names like 'plugin'
+call plug#begin('~/.vim/plugged')
 
+Plug 'itchyny/lightline.vim'
+Plug 'w0rp/ale'
+
+Plug 'leafgarland/typescript-vim', {'for': 'typescript'}
+Plug 'peitalin/vim-jsx-typescript', {'for': 'typescript'}
+
+" Plugin outside ~/.vim/plugged with post-update hook
+Plug 'junegunn/fzf', { 'dir': '~/.fzf', 'do': './install --all' }
+
+" Initialize plugin system
+call plug#end()
 
 "------------------
 " Syntax and indent
