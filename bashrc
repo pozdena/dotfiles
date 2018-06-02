@@ -30,6 +30,9 @@ PS1='\W$(parse_git_branch)\$ '
 
 # fzf
 
+# Respects gitignore and yet-to-be-added new files in a Git repo. Outside of a Git repo, lists all files.
+export FZF_DEFAULT_COMMAND='rg --files'
+
 [ -f ~/.fzf.bash ] && source ~/.fzf.bash
 
 # git

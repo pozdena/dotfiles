@@ -9,7 +9,10 @@ Plug 'leafgarland/typescript-vim', {'for': 'typescript'}
 Plug 'peitalin/vim-jsx-typescript', {'for': 'typescript'}
 
 " Plugin outside ~/.vim/plugged with post-update hook
+" PlugInstall and PlugUpdate will clone fzf in ~/.fzf and run install script
 Plug 'junegunn/fzf', { 'dir': '~/.fzf', 'do': './install --all' }
+
+nnoremap <C-p> :<C-u>FZF<CR>
 
 " Initialize plugin system
 call plug#end()
