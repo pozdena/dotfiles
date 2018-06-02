@@ -4,6 +4,7 @@ call plug#begin('~/.vim/plugged')
 
 Plug 'itchyny/lightline.vim'
 Plug 'w0rp/ale'
+Plug 'wellle/targets.vim'
 
 Plug 'leafgarland/typescript-vim', {'for': 'typescript'}
 Plug 'peitalin/vim-jsx-typescript', {'for': 'typescript'}
