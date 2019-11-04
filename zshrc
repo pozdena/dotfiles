@@ -12,6 +12,8 @@ export NVM_DIR="$HOME/.nvm"
 # aliases
 
 alias l='ls -laFh'
+alias cp='cp -i'
+alias mv='mv -i'
 
 #prompt
 

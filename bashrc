@@ -12,11 +12,8 @@ export NVM_DIR="$HOME/.nvm"
 # aliases
 
 alias l='ls -laFh'
-alias ll='ls -lFh'
-
-alias g='git'
-alias s='git status'
-alias a='git add -A'
+alias cp='cp -i'
+alias mv='mv -i'
 
 # prompt
 
