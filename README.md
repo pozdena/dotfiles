@@ -2,7 +2,7 @@
 
 ## Install
 
-1. Install NVM
+1. [Install NVM](https://github.com/nvm-sh/nvm#installing-and-updating)
 2. `cd ~ && git clone https://github.com/pozdena/dotfiles.git .dotfiles && ./.dotfiles/install`
 
 Dotfiles are installed using [Dotbot](https://github.com/anishathalye/dotbot).
