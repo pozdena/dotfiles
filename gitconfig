@@ -1,5 +1,8 @@
 [push]
 	default = simple
+	
+[pull]
+	ff = only
 
 [core]
 	excludesfile = ~/.gitignore_global
